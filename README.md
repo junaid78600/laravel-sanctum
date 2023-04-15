@@ -78,7 +78,7 @@ class User extends Authenticatable
 
 ## Step 7:Let's create the seeder for the User model
 
-```javascript 
+```` 
 php artisan make:seeder UsersTableSeeder
 ````
 
@@ -171,9 +171,9 @@ class UserController extends Controller
 ````
 
 
-## Step 12: create alogin route in the routes/api.php file
+## Step 12: create a login route in the routes/api.php file
 
-    ```javascript
+    ````
             Route::post("login",[UserController::class,'index']);
     ````
 
